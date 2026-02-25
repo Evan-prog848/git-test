@@ -1,1 +1,0 @@
-import{s as o}from"./request-bgZeUyhp.js";const s=t=>o.post("/textbook/publish",t),b=t=>o.get("/textbook/list",{params:t}),i=t=>o.get(`/textbook/detail/${t}`),a=t=>o.get("/textbook/my",{params:t});export{i as a,a as b,b as g,s as p};

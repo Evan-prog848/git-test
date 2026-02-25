@@ -1,1 +1,0 @@
-import{a8 as s}from"./index-Bc-dwE5O.js";import{c as t,s as o,a as r,g as n,b as a}from"./auth-BBsyecEI.js";const g=s("user",{state:()=>({token:a()||"",userInfo:n()||{}}),getters:{isLogin:e=>!!e.token},actions:{setToken(e){this.token=e,r(e)},setUserInfo(e){this.userInfo=e,o(e)},logout(){this.token="",this.userInfo={},t()}}});export{g as u};

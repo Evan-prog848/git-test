@@ -1,1 +1,0 @@
-import{s as t}from"./request-bgZeUyhp.js";const r=e=>t.delete(`/favorite/remove/${e}`),s=e=>t.post(`/favorite/toggle/${e}`),a=e=>t.get(`/favorite/check/${e}`),i=e=>t.get("/favorite/list",{params:e});export{a as c,i as g,r,s as t};

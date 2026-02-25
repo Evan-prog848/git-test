@@ -1,1 +1,0 @@
-import{s as e}from"./request-bgZeUyhp.js";const o=s=>e.post("/user/login",s),r=s=>e.post("/user/register",s),a=()=>e.get("/user/info"),u=s=>e.put("/user/update",s),n=s=>e.put("/user/password",s),p=s=>e.get(`/user/profile/${s}`);export{n as a,a as b,p as g,o as l,r,u};
